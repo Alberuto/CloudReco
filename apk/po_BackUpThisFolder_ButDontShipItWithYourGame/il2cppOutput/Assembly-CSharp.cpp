@@ -716,10 +716,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnInitialized_m9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:20>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:19>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3946DC5B0BBE60C26E85ECAFA4201FC31D90E209, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:21>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:20>
 		return;
 	}
 }
@@ -734,7 +734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnTargetStatusCh
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:25>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:23>
 		int32_t L_0;
 		L_0 = TargetStatus_get_Status_m6CA973C4D857DCA6B775DF7E053B0990A83026A3_inline((&___1_status), NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)3))))
@@ -743,7 +743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnTargetStatusCh
 		}
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:27>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:25>
 		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_1 = ___0_behaviour;
 		NullCheck(L_1);
 		String_t* L_2;
@@ -752,10 +752,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnTargetStatusCh
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2D191B5CCB523B29F42E56D07716104FCCA7B9EB, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:30>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:28>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = GameObject_CreatePrimitive_m13C0A691E679A83DD595913200A1DD9A906EB47B(3, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:31>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:29>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -766,7 +766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnTargetStatusCh
 		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_7, NULL);
 		NullCheck(L_6);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_6, L_8, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:32>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:30>
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
@@ -778,7 +778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnTargetStatusCh
 
 IL_0045:
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:34>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:32>
 		return;
 	}
 }
