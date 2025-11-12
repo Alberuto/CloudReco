@@ -1,0 +1,5 @@
+{ 
+	"nombre" : "zelda2",
+	"serie" : "princesa de hyrule",
+	"URL" : "https://drive.google.com/uc?export=download&id=1B29GoueENbr3RJ3R3UH2m9zrp2JWFy21"
+}

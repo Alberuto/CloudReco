@@ -1,0 +1,5 @@
+{ 
+	"nombre" : "arquero",
+	"serie" : "link guerrero",
+	"URL" : "https://drive.google.com/uc?export=download&id=1Rf2MadmmjuaEI8_VSqdZXTwUExo_cG4N"
+}

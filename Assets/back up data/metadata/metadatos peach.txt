@@ -1,0 +1,5 @@
+{ 
+	"nombre" : "Peach",
+	"serie" : "princesa de reino champi",
+	"URL" : "https://drive.google.com/uc?export=download&id=19tyQfNP1W88bl1OPS5MEQaBY5bH0_NRQ"
+}

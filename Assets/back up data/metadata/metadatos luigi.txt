@@ -1,0 +1,5 @@
+{ 
+	"nombre" : "luigi",
+	"serie" : "hermanos fontaneros",
+	"URL" : "https://drive.google.com/uc?export=download&id=1MeQg2ctExtS1f9QqyCPlVUiJ36tVX2Ka"
+}

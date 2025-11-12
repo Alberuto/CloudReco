@@ -1,0 +1,5 @@
+{ 
+	"nombre" : "jinete",
+	"serie" : "link guerrero",
+	"URL" : "https://drive.google.com/uc?export=download&id=13CelcA1riN-hHqhRGvJNeraj646_dSbD"
+}

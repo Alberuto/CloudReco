@@ -1,0 +1,5 @@
+{ 
+	"nombre" : "mario",
+	"serie" : "hermanos fontaneros",
+	"URL" : "https://drive.google.com/uc?export=download&id=1vOozqFzPEEhRvMEHkCDgRR3a5e0VlIkn"
+}

@@ -1,0 +1,5 @@
+{ 
+	"nombre" : "ocarina",
+	"serie" : "nintendo 64",
+	"URL" : "https://drive.google.com/uc?export=download&id=10XPNdYbq4eqA8JRC5LtOzUWpU0rc-meL"
+}

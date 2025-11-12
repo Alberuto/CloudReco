@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: c1889c327006b4949a09808006336099
+  - enabled: 1
+    path: Assets/Scenes/JuegoSimple.unity
+    guid: 258b89821cc33f347be1b04547fe2493
+  - enabled: 1
+    path: Assets/Scenes/JuegoParejas.unity
+    guid: abe299225c48d9c4d8ad766958c5703f
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

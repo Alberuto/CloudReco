@@ -1,0 +1,5 @@
+{ 
+	"nombre" : "toon2",
+	"serie" : "windwaker",
+	"URL" : "https://drive.google.com/uc?export=download&id=1Wjwy05z3a2FEmcj-12aibNH9RcgguUhU"
+}

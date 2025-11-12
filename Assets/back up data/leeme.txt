@@ -1,0 +1,25 @@
+Esta carpeta y su contenido es un back up local de los datos, pero el proyecto se basa en la nube y pueden ser eliminados del mismo, es por tener los archivos en algún lado relacionados con el proyecto.
+
+
+modelos -> modelos glb
+img -> imágenes para vuforia
+metadata -> metadatos de las imágenes
+
+este archivo es el léeme y además contiene los enlaces del gdrive transformados al formato que le gusta a vuforia para agregarlos a los metadatos.
+
+https://sites.google.com/site/gdocs2direct/
+
+64_majoras_mask.glb          -> https://drive.google.com/uc?export=download&id=1Zx9RnisSFn219mQZCOmPjUww3KKAs4g1
+64_ocarina_of_time.glb       -> https://drive.google.com/uc?export=download&id=10XPNdYbq4eqA8JRC5LtOzUWpU0rc-meL
+bros_luigi.glb               -> https://drive.google.com/uc?export=download&id=1MeQg2ctExtS1f9QqyCPlVUiJ36tVX2Ka
+bros_mario.glb               -> https://drive.google.com/uc?export=download&id=1vOozqFzPEEhRvMEHkCDgRR3a5e0VlIkn
+link_arquero.glb             -> https://drive.google.com/uc?export=download&id=1Rf2MadmmjuaEI8_VSqdZXTwUExo_cG4N
+link_jinete.glb              -> https://drive.google.com/uc?export=download&id=13CelcA1riN-hHqhRGvJNeraj646_dSbD
+princess_peach.glb           -> https://drive.google.com/uc?export=download&id=19tyQfNP1W88bl1OPS5MEQaBY5bH0_NRQ
+princess_rosalina_y_luma.glb -> https://drive.google.com/uc?export=download&id=1difEoV1aQw14ch2Q_2pZLjH7vfErSZTI
+toon_link_1.glb              -> https://drive.google.com/uc?export=download&id=1uNWz8qp9FPlU1R3tbfGb5YgnbgOcQCg4
+toon_link_2.glb              -> https://drive.google.com/uc?export=download&id=1Wjwy05z3a2FEmcj-12aibNH9RcgguUhU
+wii_skyward_sword.glb        -> https://drive.google.com/uc?export=download&id=1q2Q460q9SNE92ta7ffsB-RcK_WQ17M9E
+wii_ttwilight_princes.glb    -> https://drive.google.com/uc?export=download&id=1xNG7_hS2TUDK5-91lhJjxQGI8cqsnQHc
+zelda1.glb                   -> https://drive.google.com/uc?export=download&id=1MfpQxw5KBs0qmiG0wLCCVEjI7x14L9ca
+zelda2.glb                   -> https://drive.google.com/uc?export=download&id=1B29GoueENbr3RJ3R3UH2m9zrp2JWFy21

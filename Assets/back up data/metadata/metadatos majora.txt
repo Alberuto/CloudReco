@@ -1,0 +1,5 @@
+{ 
+	"nombre" : "majora",
+	"serie" : "nintendo 64",
+	"URL" : "https://drive.google.com/uc?export=download&id=1Zx9RnisSFn219mQZCOmPjUww3KKAs4g1"
+}

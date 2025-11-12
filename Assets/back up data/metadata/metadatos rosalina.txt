@@ -1,0 +1,5 @@
+{ 
+	"nombre" : "rosalina",
+	"serie" : "princesa de champi",
+	"URL" : "https://drive.google.com/uc?export=download&id=1difEoV1aQw14ch2Q_2pZLjH7vfErSZTI"
+}
