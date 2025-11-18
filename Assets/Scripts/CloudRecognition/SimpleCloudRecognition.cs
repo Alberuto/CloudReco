@@ -8,8 +8,8 @@ using System;
 public class MetaDatos {
 
     public string nombre;
-    public string url;
-    public string otro;
+    public string serie;
+    public string URL;
 
     public static MetaDatos CreateFromJSON(string jsonString) {
 
@@ -20,7 +20,10 @@ public class SimpleCloudRecognition : MonoBehaviour {
 
     CloudRecoBehaviour mCloudRecoBehaviour;
     bool mIsScanning = false;
-    string mTargetMetadata = "";
+    string mTargetMetadataNombre = "";
+    string mTargetMetadataSerie = "";
+    string mTargetMetadataURL = "";
+
 
     public ImageTargetBehaviour ImageTargetTemplate;
 
@@ -63,14 +66,14 @@ public class SimpleCloudRecognition : MonoBehaviour {
         // Display current 'scanning' status
         GUI.Box(new Rect(100, 100, 200, 50), mIsScanning ? "Scanning" : "Not scanning");
         // Display metadata of latest detected cloud-target
-        GUI.Box(new Rect(100, 200, 200, 50), "Metadata: " + mTargetMetadata);
+        GUI.Box(new Rect(100, 200, 200, 75), "Metadata: \nNombre"+mTargetMetadataNombre+".\n Serie: "+mTargetMetadataSerie+".\nURL: "+mTargetMetadataURL+". \n" );
         // If not scanning, show button
         // so that user can restart cloud scanning
         if (!mIsScanning) {
             if (GUI.Button(new Rect(100, 300, 200, 50), "Restart Scanning")) {
                 // Reset Behaviour
                 mCloudRecoBehaviour.enabled = true;
-                mTargetMetadata = "";
+               // mTargetMetadata = "";
             }
         }
     }
@@ -79,7 +82,9 @@ public class SimpleCloudRecognition : MonoBehaviour {
         MetaDatos datos;
         datos = MetaDatos.CreateFromJSON(cloudRecoSearchResult.MetaData);
 
-        mTargetMetadata = datos.nombre;
+        mTargetMetadataNombre = datos.nombre;
+        mTargetMetadataSerie = datos.serie;
+        mTargetMetadataURL = datos.URL;
 
         mCloudRecoBehaviour.enabled = false;   
 

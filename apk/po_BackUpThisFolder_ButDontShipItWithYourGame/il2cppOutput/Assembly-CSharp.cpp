@@ -26,6 +26,7 @@ struct Queue_1_tDCDB1CEF747EF8D38C6708645EC5FD3799C168BA;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
@@ -72,9 +73,11 @@ IL2CPP_EXTERN_C RuntimeClass* InitError_tC04517E3DB17E87FEB08460A1ADB5DEE0F6FDF1
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* QueryError_tEB494FF968665E22017781DF3E77DEE063DBFBA3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____CC7C3F625D03CFF4D5BE2BC0062438B368C0EE9249F296A1C007D59E3DCD416A_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FC31005721F0E35DCB2312C3A2EA05B6FD17F39C55D6CB8E230AFFD95E998526_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral03A476FE5CB1E961D0CB5BC596765C76670D80DC;
 IL2CPP_EXTERN_C String_t* _stringLiteral0C019E50CFD585AD0FE512F967393591B4259595;
 IL2CPP_EXTERN_C String_t* _stringLiteral264C7D544F4465BE009499AEB1DA6FC03B01DFC2;
 IL2CPP_EXTERN_C String_t* _stringLiteral29DF71BC23A5A09934F906AF083E74919711B505;
@@ -83,8 +86,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteral3946DC5B0BBE60C26E85ECAFA4201FC31D90E209
 IL2CPP_EXTERN_C String_t* _stringLiteral45FAB8C2D6F34E46A937913FE9F311EEEC1C19B4;
 IL2CPP_EXTERN_C String_t* _stringLiteral5F003578C485A107340428CA1B5CBEC8D689E9A3;
 IL2CPP_EXTERN_C String_t* _stringLiteral6880A54EF075785F5C9C50584B4D634313B2DB74;
-IL2CPP_EXTERN_C String_t* _stringLiteral8120B93D7DA20B47DEE41AADE3C2939C7533F6BF;
+IL2CPP_EXTERN_C String_t* _stringLiteral69F0DB315842CAC16769E5BAC6A469EF47BAD56B;
 IL2CPP_EXTERN_C String_t* _stringLiteral8463240B597E14A568ACA7C91222CE26EF0DB88C;
+IL2CPP_EXTERN_C String_t* _stringLiteral970CDD4349D99EEAF869B4170E76E3DDC1951A27;
+IL2CPP_EXTERN_C String_t* _stringLiteral97E92AE6A7612C7A3DEA7994626839EB20419F4C;
+IL2CPP_EXTERN_C String_t* _stringLiteralC760AF50AFCA76F67899CCC1D0D8F124BD855455;
 IL2CPP_EXTERN_C String_t* _stringLiteralD9AE0C22928375752061947B14FD78671D4156F0;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralEE46594386E5D6CE9502FA51F7CCAC04A75D30BD;
@@ -100,6 +106,7 @@ struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -118,8 +125,8 @@ struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49
 struct MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683  : public RuntimeObject
 {
 	String_t* ___nombre;
-	String_t* ___url;
-	String_t* ___otro;
+	String_t* ___serie;
+	String_t* ___URL;
 };
 struct String_t  : public RuntimeObject
 {
@@ -437,7 +444,9 @@ struct SimpleCloudRecognition_tE4F199765C2387AED88F5CC4CB52A11D51BF8CF1  : publi
 {
 	CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* ___mCloudRecoBehaviour;
 	bool ___mIsScanning;
-	String_t* ___mTargetMetadata;
+	String_t* ___mTargetMetadataNombre;
+	String_t* ___mTargetMetadataSerie;
+	String_t* ___mTargetMetadataURL;
 	ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120* ___ImageTargetTemplate;
 };
 struct UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -538,6 +547,40 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
 {
 	ALIGN_FIELD (8) uint8_t m_Items[1];
@@ -579,6 +622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501_gshared (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 inline CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* Component_GetComponent_TisCloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777_m62BF584234A10D7EFCD69019F15CA5A52BCF1874 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
@@ -589,7 +633,6 @@ inline void Action_2__ctor_mCE1D840FD103AC1247B1231CAB0A34B795A2978C (Action_2_t
 	((  void (*) (Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m44A037CE8D00B19CF27C3155BB489C9A82F08D00_gshared)(__this, ___0_object, ___1_method, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObserverBehaviour_add_OnTargetStatusChanged_m3EEEEDBF95D9B118056440AACBC08A516975FA6F (ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* __this, Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F* ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TargetStatus_get_Status_m6CA973C4D857DCA6B775DF7E053B0990A83026A3_inline (TargetStatus_t5D866F1CAA9D70E5B66D532E69B190EA3BAAC4B0* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ObserverBehaviour_get_TargetName_mFB6FC5459068E0E9800E2C8AFFEF6F8F48297AB1_inline (ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
@@ -638,6 +681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CloudRecoBehaviour_UnregisterOnNewSearch
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUI_Box_mB47BC44807774B77DB8B2BB548D339036544ACC4 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, String_t* ___1_text, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, String_t* ___1_text, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* MetaDatos_CreateFromJSON_mC5700A7747283FBEB9755BBD25F1A65358533264 (String_t* ___0_jsonString, const RuntimeMethod* method) ;
@@ -671,27 +715,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_Start_mD27FA97BF
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CloudRecognitionHandler_OnTargetStatusChanged_mD374ADF865F821826DB95048D97D123F6D35305A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777_m62BF584234A10D7EFCD69019F15CA5A52BCF1874_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral970CDD4349D99EEAF869B4170E76E3DDC1951A27);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:10>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral970CDD4349D99EEAF869B4170E76E3DDC1951A27, NULL);
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:12>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_0;
 		L_0 = Component_GetComponent_TisCloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777_m62BF584234A10D7EFCD69019F15CA5A52BCF1874(__this, Component_GetComponent_TisCloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777_m62BF584234A10D7EFCD69019F15CA5A52BCF1874_RuntimeMethod_var);
 		__this->___cloudRecoBehaviour = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cloudRecoBehaviour), (void*)L_0);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:12>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:14>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_1 = __this->___cloudRecoBehaviour;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_1, NULL);
 		if (!L_2)
 		{
-			goto IL_0030;
+			goto IL_003a;
 		}
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:14>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:16>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_3 = __this->___cloudRecoBehaviour;
 		Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F* L_4 = (Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F*)il2cpp_codegen_object_new(Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F_il2cpp_TypeInfo_var);
 		Action_2__ctor_mCE1D840FD103AC1247B1231CAB0A34B795A2978C(L_4, __this, (intptr_t)((void*)CloudRecognitionHandler_OnTargetStatusChanged_mD374ADF865F821826DB95048D97D123F6D35305A_RuntimeMethod_var), NULL);
@@ -699,9 +748,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_Start_mD27FA97BF
 		ObserverBehaviour_add_OnTargetStatusChanged_m3EEEEDBF95D9B118056440AACBC08A516975FA6F(L_3, L_4, NULL);
 	}
 
-IL_0030:
+IL_003a:
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:16>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:18>
 		return;
 	}
 }
@@ -716,10 +765,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnInitialized_m9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:19>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:21>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3946DC5B0BBE60C26E85ECAFA4201FC31D90E209, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:20>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:22>
 		return;
 	}
 }
@@ -734,7 +783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnTargetStatusCh
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:23>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:25>
 		int32_t L_0;
 		L_0 = TargetStatus_get_Status_m6CA973C4D857DCA6B775DF7E053B0990A83026A3_inline((&___1_status), NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)3))))
@@ -743,7 +792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnTargetStatusCh
 		}
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:25>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:27>
 		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_1 = ___0_behaviour;
 		NullCheck(L_1);
 		String_t* L_2;
@@ -752,10 +801,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnTargetStatusCh
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2D191B5CCB523B29F42E56D07716104FCCA7B9EB, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:28>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:29>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = GameObject_CreatePrimitive_m13C0A691E679A83DD595913200A1DD9A906EB47B(3, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:29>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:30>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -766,7 +815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnTargetStatusCh
 		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_7, NULL);
 		NullCheck(L_6);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_6, L_8, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:30>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:31>
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
@@ -778,7 +827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudRecognitionHandler_OnTargetStatusCh
 
 IL_0045:
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:32>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/CloudRecognitionHandler.cs:33>
 		return;
 	}
 }
@@ -851,42 +900,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_Awake_m173A0A4D93
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:29>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:32>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_0;
 		L_0 = Component_GetComponent_TisCloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777_m62BF584234A10D7EFCD69019F15CA5A52BCF1874(__this, Component_GetComponent_TisCloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777_m62BF584234A10D7EFCD69019F15CA5A52BCF1874_RuntimeMethod_var);
 		__this->___mCloudRecoBehaviour = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mCloudRecoBehaviour), (void*)L_0);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:30>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:33>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_1 = __this->___mCloudRecoBehaviour;
 		Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91* L_2 = (Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91*)il2cpp_codegen_object_new(Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC51847B8CD3CD83F72BF054B77DBB468BCC98986(L_2, __this, (intptr_t)((void*)SimpleCloudRecognition_OnInitialized_mF56C9BE82D8EFD6813B81427258E95F7E3939726_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		CloudRecoBehaviour_RegisterOnInitializedEventHandler_m1FF1F0DEC6DAD933B1F08F69E713B9B5DCE56BEE(L_1, L_2, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:31>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:34>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_3 = __this->___mCloudRecoBehaviour;
 		Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC* L_4 = (Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC*)il2cpp_codegen_object_new(Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC_il2cpp_TypeInfo_var);
 		Action_1__ctor_m96D5EA22B490AE9DBDB177BF4E7FDF9B9FD796A7(L_4, __this, (intptr_t)((void*)SimpleCloudRecognition_OnInitError_m2DEBDFE60142A72CB1BE7D2AAD955F31B04A9744_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		CloudRecoBehaviour_RegisterOnInitErrorEventHandler_m1B1BF3FCCE932A31438EA281FF09B50726E5B258(L_3, L_4, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:32>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:35>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_5 = __this->___mCloudRecoBehaviour;
 		Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E* L_6 = (Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E*)il2cpp_codegen_object_new(Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E_il2cpp_TypeInfo_var);
 		Action_1__ctor_m7705345C7E4D377892000B5ECBE238EA6EE4A252(L_6, __this, (intptr_t)((void*)SimpleCloudRecognition_OnUpdateError_mE13AD437D3325282A7A21F3BA7A26F73C864581D_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		CloudRecoBehaviour_RegisterOnUpdateErrorEventHandler_m0E0C2769BA0690578AC1E422EB4ABD2F07C7AB10(L_5, L_6, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:33>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:36>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_7 = __this->___mCloudRecoBehaviour;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_8 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_8, __this, (intptr_t)((void*)SimpleCloudRecognition_OnStateChanged_m63B22A16FC9283057FEC4D61E7EFC0F3B9D79666_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		CloudRecoBehaviour_RegisterOnStateChangedEventHandler_mD617C992484BFD9B43F54D836DA4AA34FD6A4AEC(L_7, L_8, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:34>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:37>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_9 = __this->___mCloudRecoBehaviour;
 		Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98* L_10 = (Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98*)il2cpp_codegen_object_new(Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98_il2cpp_TypeInfo_var);
 		Action_1__ctor_mD43A23947A9468C8062F471F7E737A271E9CECFF(L_10, __this, (intptr_t)((void*)SimpleCloudRecognition_OnNewSearchResult_m4C09814FA285C8F6A6875DAC78E797FA7ADB02EA_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
 		CloudRecoBehaviour_RegisterOnNewSearchResultEventHandler_m2333CCA636852D484910215E593096B4171C3AF9(L_9, L_10, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:36>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:39>
 		return;
 	}
 }
@@ -909,42 +958,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnDestroy_m55013E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:39>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:42>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_0 = __this->___mCloudRecoBehaviour;
 		Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91* L_1 = (Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91*)il2cpp_codegen_object_new(Action_1_tBFF2F9CD8574F5BE0626C1C235918E0630FBBB91_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC51847B8CD3CD83F72BF054B77DBB468BCC98986(L_1, __this, (intptr_t)((void*)SimpleCloudRecognition_OnInitialized_mF56C9BE82D8EFD6813B81427258E95F7E3939726_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = CloudRecoBehaviour_UnregisterOnInitializedEventHandler_mF1E6ED88F60E62EDF9BD531DF3D4CD18A02E2C2C(L_0, L_1, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:40>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:43>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_3 = __this->___mCloudRecoBehaviour;
 		Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC* L_4 = (Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC*)il2cpp_codegen_object_new(Action_1_t524C672EBFE8D3DDCFD2EB22207E9E1E352DF9EC_il2cpp_TypeInfo_var);
 		Action_1__ctor_m96D5EA22B490AE9DBDB177BF4E7FDF9B9FD796A7(L_4, __this, (intptr_t)((void*)SimpleCloudRecognition_OnInitError_m2DEBDFE60142A72CB1BE7D2AAD955F31B04A9744_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		bool L_5;
 		L_5 = CloudRecoBehaviour_UnregisterOnInitErrorEventHandler_m23FD7BF6C4C1D2F0B410C9FF5723967404945177(L_3, L_4, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:41>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:44>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_6 = __this->___mCloudRecoBehaviour;
 		Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E* L_7 = (Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E*)il2cpp_codegen_object_new(Action_1_t2E330B9E262A16BFCD0C9A6382144829E242808E_il2cpp_TypeInfo_var);
 		Action_1__ctor_m7705345C7E4D377892000B5ECBE238EA6EE4A252(L_7, __this, (intptr_t)((void*)SimpleCloudRecognition_OnUpdateError_mE13AD437D3325282A7A21F3BA7A26F73C864581D_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = CloudRecoBehaviour_UnregisterOnUpdateErrorEventHandler_m9A13FFD0728046124A90D243F0E0AE8A3C3AB6BB(L_6, L_7, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:42>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:45>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_9 = __this->___mCloudRecoBehaviour;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_10 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_10, __this, (intptr_t)((void*)SimpleCloudRecognition_OnStateChanged_m63B22A16FC9283057FEC4D61E7EFC0F3B9D79666_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
 		bool L_11;
 		L_11 = CloudRecoBehaviour_UnregisterOnStateChangedEventHandler_m6B9C7CFD8D41B28579DDA5E0B9DFFB6EC1CE3171(L_9, L_10, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:43>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:46>
 		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_12 = __this->___mCloudRecoBehaviour;
 		Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98* L_13 = (Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98*)il2cpp_codegen_object_new(Action_1_t01BA2483725D6122DDFED99A8697C001AFE4AE98_il2cpp_TypeInfo_var);
 		Action_1__ctor_mD43A23947A9468C8062F471F7E737A271E9CECFF(L_13, __this, (intptr_t)((void*)SimpleCloudRecognition_OnNewSearchResult_m4C09814FA285C8F6A6875DAC78E797FA7ADB02EA_RuntimeMethod_var), NULL);
 		NullCheck(L_12);
 		bool L_14;
 		L_14 = CloudRecoBehaviour_UnregisterOnNewSearchResultEventHandler_m19C143094FA894C8CF8029C09AA029057EED999C(L_12, L_13, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:44>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:47>
 		return;
 	}
 }
@@ -959,10 +1008,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnInitialized_mF5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:46>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:49>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral0C019E50CFD585AD0FE512F967393591B4259595, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:47>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:50>
 		return;
 	}
 }
@@ -978,7 +1027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnInitError_m2DEB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:49>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:52>
 		Il2CppFakeBox<int32_t> L_0(InitError_tC04517E3DB17E87FEB08460A1ADB5DEE0F6FDF12_il2cpp_TypeInfo_var, (&___0_initError));
 		String_t* L_1;
 		L_1 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_0), NULL);
@@ -986,7 +1035,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnInitError_m2DEB
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral45FAB8C2D6F34E46A937913FE9F311EEEC1C19B4, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:50>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:53>
 		return;
 	}
 }
@@ -1002,7 +1051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnUpdateError_mE1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:52>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:55>
 		Il2CppFakeBox<int32_t> L_0(QueryError_tEB494FF968665E22017781DF3E77DEE063DBFBA3_il2cpp_TypeInfo_var, (&___0_updateError));
 		String_t* L_1;
 		L_1 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_0), NULL);
@@ -1010,7 +1059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnUpdateError_mE1
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral8463240B597E14A568ACA7C91222CE26EF0DB88C, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:53>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:56>
 		return;
 	}
 }
@@ -1018,12 +1067,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnUpdateError_mE1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnStateChanged_m63B22A16FC9283057FEC4D61E7EFC0F3B9D79666 (SimpleCloudRecognition_tE4F199765C2387AED88F5CC4CB52A11D51BF8CF1* __this, bool ___0_scanning, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:56>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:59>
 		bool L_0 = ___0_scanning;
 		__this->___mIsScanning = L_0;
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:58>
-		bool L_1 = ___0_scanning;
 		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:61>
+		bool L_1 = ___0_scanning;
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:64>
 		return;
 	}
 }
@@ -1034,10 +1083,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnGUI_mF50EA1D0C6
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral03A476FE5CB1E961D0CB5BC596765C76670D80DC);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29DF71BC23A5A09934F906AF083E74919711B505);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6880A54EF075785F5C9C50584B4D634313B2DB74);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8120B93D7DA20B47DEE41AADE3C2939C7533F6BF);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral69F0DB315842CAC16769E5BAC6A469EF47BAD56B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral97E92AE6A7612C7A3DEA7994626839EB20419F4C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC760AF50AFCA76F67899CCC1D0D8F124BD855455);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEE46594386E5D6CE9502FA51F7CCAC04A75D30BD);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -1049,7 +1101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnGUI_mF50EA1D0C6
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D G_B3_1;
 	memset((&G_B3_1), 0, sizeof(G_B3_1));
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:64>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:67>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_0), (100.0f), (100.0f), (200.0f), (50.0f), NULL);
@@ -1077,47 +1129,68 @@ IL_002d:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
 		GUI_Box_mB47BC44807774B77DB8B2BB548D339036544ACC4(G_B3_1, G_B3_0, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:66>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:69>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_2;
 		memset((&L_2), 0, sizeof(L_2));
-		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_2), (100.0f), (200.0f), (200.0f), (50.0f), NULL);
-		String_t* L_3 = __this->___mTargetMetadata;
-		String_t* L_4;
-		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral8120B93D7DA20B47DEE41AADE3C2939C7533F6BF, L_3, NULL);
-		GUI_Box_mB47BC44807774B77DB8B2BB548D339036544ACC4(L_2, L_4, NULL);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:69>
-		bool L_5 = __this->___mIsScanning;
-		if (L_5)
-		{
-			goto IL_00a4;
-		}
-	}
-	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:70>
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_6;
-		memset((&L_6), 0, sizeof(L_6));
-		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_6), (100.0f), (300.0f), (200.0f), (50.0f), NULL);
-		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
-		bool L_7;
-		L_7 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_6, _stringLiteral6880A54EF075785F5C9C50584B4D634313B2DB74, NULL);
-		if (!L_7)
-		{
-			goto IL_00a4;
-		}
-	}
-	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:72>
-		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_8 = __this->___mCloudRecoBehaviour;
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_2), (100.0f), (200.0f), (200.0f), (75.0f), NULL);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)7);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral69F0DB315842CAC16769E5BAC6A469EF47BAD56B);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
+		String_t* L_6 = __this->___mTargetMetadataNombre;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_6);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_5;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral03A476FE5CB1E961D0CB5BC596765C76670D80DC);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
+		String_t* L_9 = __this->___mTargetMetadataSerie;
 		NullCheck(L_8);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_8, (bool)1, NULL);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_9);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_8;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC760AF50AFCA76F67899CCC1D0D8F124BD855455);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
+		String_t* L_12 = __this->___mTargetMetadataURL;
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_12);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_11;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral97E92AE6A7612C7A3DEA7994626839EB20419F4C);
+		String_t* L_14;
+		L_14 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_13, NULL);
+		GUI_Box_mB47BC44807774B77DB8B2BB548D339036544ACC4(L_2, L_14, NULL);
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:72>
+		bool L_15 = __this->___mIsScanning;
+		if (L_15)
+		{
+			goto IL_00cf;
+		}
+	}
+	{
 		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:73>
-		__this->___mTargetMetadata = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadata), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_16), (100.0f), (300.0f), (200.0f), (50.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_17;
+		L_17 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_16, _stringLiteral6880A54EF075785F5C9C50584B4D634313B2DB74, NULL);
+		if (!L_17)
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:75>
+		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_18 = __this->___mCloudRecoBehaviour;
+		NullCheck(L_18);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_18, (bool)1, NULL);
 	}
 
-IL_00a4:
+IL_00cf:
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:76>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:79>
 		return;
 	}
 }
@@ -1132,49 +1205,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition_OnNewSearchResult
 	}
 	MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* V_0 = NULL;
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:80>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:83>
 		CloudRecoSearchResult_tE583336F5452284FC4BA3A1B192007DE7DCCB42E* L_0 = ___0_cloudRecoSearchResult;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___MetaData;
 		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_2;
 		L_2 = MetaDatos_CreateFromJSON_mC5700A7747283FBEB9755BBD25F1A65358533264(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:82>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:85>
 		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_3 = V_0;
 		NullCheck(L_3);
 		String_t* L_4 = L_3->___nombre;
-		__this->___mTargetMetadata = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadata), (void*)L_4);
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:84>
-		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_5 = __this->___mCloudRecoBehaviour;
-		NullCheck(L_5);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_5, (bool)0, NULL);
+		__this->___mTargetMetadataNombre = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadataNombre), (void*)L_4);
 		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:86>
-		ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120* L_6 = __this->___ImageTargetTemplate;
+		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_5 = V_0;
+		NullCheck(L_5);
+		String_t* L_6 = L_5->___serie;
+		__this->___mTargetMetadataSerie = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadataSerie), (void*)L_6);
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:87>
+		MetaDatos_t49C9148E9C434B9AFBF04AB96337DDB13145F683* L_7 = V_0;
+		NullCheck(L_7);
+		String_t* L_8 = L_7->___URL;
+		__this->___mTargetMetadataURL = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadataURL), (void*)L_8);
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:89>
+		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_9 = __this->___mCloudRecoBehaviour;
+		NullCheck(L_9);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_9, (bool)0, NULL);
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:91>
+		ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120* L_10 = __this->___ImageTargetTemplate;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_7;
-		L_7 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_6, NULL);
-		if (!L_7)
+		bool L_11;
+		L_11 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_10, NULL);
+		if (!L_11)
 		{
-			goto IL_0049;
+			goto IL_0061;
 		}
 	}
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:87>
-		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_8 = __this->___mCloudRecoBehaviour;
-		CloudRecoSearchResult_tE583336F5452284FC4BA3A1B192007DE7DCCB42E* L_9 = ___0_cloudRecoSearchResult;
-		ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120* L_10 = __this->___ImageTargetTemplate;
-		NullCheck(L_10);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
-		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
-		NullCheck(L_8);
-		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_12;
-		L_12 = CloudRecoBehaviour_EnableObservers_m0F8C911F85DC9175EC115AD024F3B2C9A1C45220(L_8, L_9, L_11, NULL);
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:92>
+		CloudRecoBehaviour_tC7D7B2DFEAC8ACC756340E676F607A46496D1777* L_12 = __this->___mCloudRecoBehaviour;
+		CloudRecoSearchResult_tE583336F5452284FC4BA3A1B192007DE7DCCB42E* L_13 = ___0_cloudRecoSearchResult;
+		ImageTargetBehaviour_t014481FC6A8B819C2BCE7922BA6BD53E1B23F120* L_14 = __this->___ImageTargetTemplate;
+		NullCheck(L_14);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
+		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
+		NullCheck(L_12);
+		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_16;
+		L_16 = CloudRecoBehaviour_EnableObservers_m0F8C911F85DC9175EC115AD024F3B2C9A1C45220(L_12, L_13, L_15, NULL);
 	}
 
-IL_0049:
+IL_0061:
 	{
-		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:89>
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:94>
 		return;
 	}
 }
@@ -1189,8 +1274,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleCloudRecognition__ctor_m355051D508
 	}
 	{
 		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:23>
-		__this->___mTargetMetadata = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadata), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		__this->___mTargetMetadataNombre = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadataNombre), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:24>
+		__this->___mTargetMetadataSerie = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadataSerie), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/alberto/repositorios/CloudReco/Assets/Scripts/CloudRecognition/SimpleCloudRecognition.cs:25>
+		__this->___mTargetMetadataURL = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTargetMetadataURL), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
