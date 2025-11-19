@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1010,9 +1010,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Bienvenido a Scandfinder, un juego de reconocimiento de amiibos con dos
-    modos de juego.\\n\\nEl modo pista (f\xE1cil), el cual se facilitara una pista
+    modos de juego.\\n\\nEl modo simple (f\xE1cil), el cual se facilitara una pista
     y admitira dos soluciones validas.\\n\\nEl modo parejas (dificil) que te preguntara
-    por una pareja de tarjetas y la solucion no sera valida hasta introducir 2."
+    por una pareja de tarjetas y la solucion no sera valida hasta introducir las
+    2."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1451,13 +1452,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125679523}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: -0.0015641614, y: 0.12165668, z: -0.025084836, w: 0.992254}
+  m_LocalPosition: {x: 504, y: -23, z: -148}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.172, y: 13.976, z: -2.875}
 --- !u!114 &1125679526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2065,7 +2066,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440157224}
   m_LocalRotation: {x: -0.08942678, y: -0, z: -0, w: 0.99599344}
-  m_LocalPosition: {x: 0, y: 0, z: 66.64587}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2077,8 +2078,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -10.261, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -515.18066, y: 5.983856}
-  m_SizeDelta: {x: 923.8221, y: 44.2535}
+  m_AnchoredPosition: {x: -515.18066, y: 6}
+  m_SizeDelta: {x: 923.8221, y: -18.5}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1440157226
 MonoBehaviour:
@@ -2093,7 +2094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

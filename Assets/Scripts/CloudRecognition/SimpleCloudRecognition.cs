@@ -18,14 +18,14 @@ public class MetaDatos {
 }
 public class SimpleCloudRecognition : MonoBehaviour {
 
-    CloudRecoBehaviour mCloudRecoBehaviour;
+    public ImageTargetBehaviour ImageTargetTemplate;
+    public CloudRecoBehaviour mCloudRecoBehaviour;
+    public LoadModelFromURL modelLoader;
+
     bool mIsScanning = false;
     string mTargetMetadataNombre = "";
     string mTargetMetadataSerie = "";
     string mTargetMetadataURL = "";
-
-
-    public ImageTargetBehaviour ImageTargetTemplate;
 
     void Awake() {
         
@@ -64,13 +64,13 @@ public class SimpleCloudRecognition : MonoBehaviour {
     }
     void OnGUI() {
         // Display current 'scanning' status
-        GUI.Box(new Rect(100, 100, 200, 50), mIsScanning ? "Scanning" : "Not scanning");
+        GUI.Box(new Rect(100, 150, 300, 50), mIsScanning ? "Scanning" : "Not scanning");
         // Display metadata of latest detected cloud-target
-        GUI.Box(new Rect(100, 200, 200, 75), "Metadata: \nNombre"+mTargetMetadataNombre+".\n Serie: "+mTargetMetadataSerie+".\nURL: "+mTargetMetadataURL+". \n" );
+        GUI.Box(new Rect(100, 200, 300, 75), "Metadata: \nNombre: "+mTargetMetadataNombre+".\n Serie: "+mTargetMetadataSerie+".\nURL: "+mTargetMetadataURL+". \n" );
         // If not scanning, show button
         // so that user can restart cloud scanning
         if (!mIsScanning) {
-            if (GUI.Button(new Rect(100, 300, 200, 50), "Restart Scanning")) {
+            if (GUI.Button(new Rect(100, 275, 300, 50), "Restart Scanning")) {
                 // Reset Behaviour
                 mCloudRecoBehaviour.enabled = true;
                // mTargetMetadata = "";
@@ -79,8 +79,7 @@ public class SimpleCloudRecognition : MonoBehaviour {
     }
     public void OnNewSearchResult(CloudRecoBehaviour.CloudRecoSearchResult cloudRecoSearchResult) {
 
-        MetaDatos datos;
-        datos = MetaDatos.CreateFromJSON(cloudRecoSearchResult.MetaData);
+        MetaDatos datos = MetaDatos.CreateFromJSON(cloudRecoSearchResult.MetaData);
 
         mTargetMetadataNombre = datos.nombre;
         mTargetMetadataSerie = datos.serie;
@@ -90,6 +89,10 @@ public class SimpleCloudRecognition : MonoBehaviour {
 
         if (ImageTargetTemplate){
             mCloudRecoBehaviour.EnableObservers(cloudRecoSearchResult, ImageTargetTemplate.gameObject);
+        }
+        // Cargar el modelo desde la URL obtenida
+        if (modelLoader != null) {
+            modelLoader.LoadModel(mTargetMetadataURL);
         }
     }
 }
