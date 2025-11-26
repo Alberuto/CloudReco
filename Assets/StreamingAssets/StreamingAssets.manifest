@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 266412255
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: 64majorasmask
+      Dependencies: {}
+    Info_1:
+      Name: 64ocarinaoftime
+      Dependencies: {}
+    Info_2:
+      Name: brosluigi
+      Dependencies: {}
+    Info_3:
+      Name: brosmario
+      Dependencies: {}
+    Info_4:
+      Name: linkarquero
+      Dependencies: {}
+    Info_5:
+      Name: linkjinete
+      Dependencies: {}
+    Info_6:
+      Name: princesspeach
+      Dependencies: {}
+    Info_7:
+      Name: princessrosalinayluma
+      Dependencies: {}
+    Info_8:
+      Name: toonlink1
+      Dependencies: {}
+    Info_9:
+      Name: toonlink2
+      Dependencies: {}
+    Info_10:
+      Name: wiiskywardsword
+      Dependencies: {}
+    Info_11:
+      Name: wiitwilightprinces
+      Dependencies: {}
+    Info_12:
+      Name: zelda1
+      Dependencies: {}
+    Info_13:
+      Name: zelda2
+      Dependencies: {}

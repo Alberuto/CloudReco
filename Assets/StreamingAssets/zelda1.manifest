@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 451148176
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7e6fa865ece8f89fabe91b04c5923670
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 756c782b9b6ee152b0d33e7b9fa049d2
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e65dbea9e5622e01095821d9f07b3883
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/zelda1.prefab
+Dependencies: []

@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 491337571
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7176d34cf33501be786ef674cf8dbe5f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fd4ca041dc53f180c945b5060b9895d2
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7d278eb0f2cc072ba66afb57ce1ca53d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/princess_rosalina_y_luma.prefab
+Dependencies: []

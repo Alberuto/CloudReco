@@ -34,7 +34,7 @@ public class LoadModelFromURL : MonoBehaviour
                             if (child != null)
                                 child.localScale = new Vector3(0.01f, 0.01f, 0.01f);
                         }
-                        AssignURPShader(parentObject.transform);
+                       // AssignURPShader(parentObject.transform);
                     }
                     else
                     {
@@ -52,7 +52,7 @@ public class LoadModelFromURL : MonoBehaviour
             }
         }
     }
-    private void AssignURPShader(Transform parent)
+   /* private void AssignURPShader(Transform parent)
     {
         foreach (Transform child in parent)
         {
@@ -61,9 +61,9 @@ public class LoadModelFromURL : MonoBehaviour
             {
                 foreach (Material mat in renderer.materials)
                 {
-                    if (mat.shader.name != "Universal Render Pipeline/Lit")
+                    if (mat.shader.name != "glTF/pbrMetallicRoughness")
                     {
-                        mat.shader = Shader.Find("Universal Render Pipeline/Lit");
+                        mat.shader = Shader.Find("glTF/pbrMetallicRoughness");
                         if (mat.HasProperty("_BaseMap"))
                         {
                             // mat.SetTexture("_BaseMap", tuTexturaAlbedo);
@@ -72,5 +72,5 @@ public class LoadModelFromURL : MonoBehaviour
                 }
             }
         }
-    }
+    }*/
 }

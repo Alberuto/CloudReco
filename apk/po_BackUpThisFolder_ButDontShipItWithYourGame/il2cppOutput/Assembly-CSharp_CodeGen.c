@@ -26,7 +26,6 @@ extern void UIManager_ModoParejas_mD512A1BFCB1172C3A9756FA3446F0764BC5C7D41 (voi
 extern void UIManager_Salir_mFA8269DD8D351B042B42E7AC57A7F7412A53E79D (void);
 extern void UIManager__ctor_mC9DC2B8984E76F424E73C1860AD4BD3DEBF6573F (void);
 extern void LoadModelFromURL_LoadModel_mAEDB6F4BEBAD055B1E717B7419434D7BAEDE2B27 (void);
-extern void LoadModelFromURL_AssignURPShader_mE3D522F50462C20CB086CFA2B7898E3B65293436 (void);
 extern void LoadModelFromURL__ctor_m2F3919086958926DC63B61A6092E0AFDB53A74BC (void);
 extern void U3CLoadModelU3Ed__1_MoveNext_m51181C03285A8D2B3CE5F1F6FD493E2E85298794 (void);
 extern void U3CLoadModelU3Ed__1_SetStateMachine_mF0A94ED1FA21A2EBC4941FACB58FE59C8B34C856 (void);
@@ -36,7 +35,7 @@ extern void VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3
 extern void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[29] = 
+static Il2CppMethodPointer s_methodPointers[28] = 
 {
 	MetaDatos_CreateFromJSON_mC5700A7747283FBEB9755BBD25F1A65358533264,
 	MetaDatos__ctor_mB771E1F91969E3102DD65BCF00359C40A21E8C78,
@@ -57,7 +56,6 @@ static Il2CppMethodPointer s_methodPointers[29] =
 	UIManager_Salir_mFA8269DD8D351B042B42E7AC57A7F7412A53E79D,
 	UIManager__ctor_mC9DC2B8984E76F424E73C1860AD4BD3DEBF6573F,
 	LoadModelFromURL_LoadModel_mAEDB6F4BEBAD055B1E717B7419434D7BAEDE2B27,
-	LoadModelFromURL_AssignURPShader_mE3D522F50462C20CB086CFA2B7898E3B65293436,
 	LoadModelFromURL__ctor_m2F3919086958926DC63B61A6092E0AFDB53A74BC,
 	U3CLoadModelU3Ed__1_MoveNext_m51181C03285A8D2B3CE5F1F6FD493E2E85298794,
 	U3CLoadModelU3Ed__1_SetStateMachine_mF0A94ED1FA21A2EBC4941FACB58FE59C8B34C856,
@@ -72,10 +70,10 @@ extern void U3CLoadModelU3Ed__1_MoveNext_m51181C03285A8D2B3CE5F1F6FD493E2E852987
 extern void U3CLoadModelU3Ed__1_SetStateMachine_mF0A94ED1FA21A2EBC4941FACB58FE59C8B34C856_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
 {
-	{ 0x06000016, U3CLoadModelU3Ed__1_MoveNext_m51181C03285A8D2B3CE5F1F6FD493E2E85298794_AdjustorThunk },
-	{ 0x06000017, U3CLoadModelU3Ed__1_SetStateMachine_mF0A94ED1FA21A2EBC4941FACB58FE59C8B34C856_AdjustorThunk },
+	{ 0x06000015, U3CLoadModelU3Ed__1_MoveNext_m51181C03285A8D2B3CE5F1F6FD493E2E85298794_AdjustorThunk },
+	{ 0x06000016, U3CLoadModelU3Ed__1_SetStateMachine_mF0A94ED1FA21A2EBC4941FACB58FE59C8B34C856_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[29] = 
+static const int32_t s_InvokerIndices[28] = 
 {
 	25225,
 	15709,
@@ -96,7 +94,6 @@ static const int32_t s_InvokerIndices[29] =
 	15709,
 	15709,
 	11907,
-	11907,
 	15709,
 	15709,
 	11907,
@@ -111,7 +108,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	29,
+	28,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,

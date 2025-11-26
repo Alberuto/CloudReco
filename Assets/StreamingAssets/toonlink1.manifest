@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.2.6f1
+CRC: 3067621464
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e99e91982357d67a1e2c5ab7ffb112c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b3c72e986fca1fa3b3e17bd61dd210ea
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3e3f2df836b2172b80a5856af45cf21a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/toon_link_1.prefab
+Dependencies: []
