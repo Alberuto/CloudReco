@@ -1,0 +1,93 @@
+using UnityEngine;
+using Vuforia;
+using JetBrains.Annotations;
+using static UnityEngine.CullingGroup;
+using static Vuforia.CloudRecoBehaviour;
+using System;
+
+public class SimpleCloudRecognitionP : MonoBehaviour {
+
+    public ImageTargetBehaviour ImageTargetTemplate;
+    public CloudRecoBehaviour mCloudRecoBehaviour;
+    public LoadModelFromURL modelLoader;
+
+    public GameManagerP gameManager; // asigna en el inspector
+
+    bool mIsScanning = false;
+    string mTargetMetadataNombre = "";
+    string mTargetMetadataSerie = "";
+    string mTargetMetadataURL = "";
+
+    void Awake() {
+        
+        mCloudRecoBehaviour = GetComponent<CloudRecoBehaviour>();
+        mCloudRecoBehaviour.RegisterOnInitializedEventHandler(OnInitialized);
+        mCloudRecoBehaviour.RegisterOnInitErrorEventHandler(OnInitError);
+        mCloudRecoBehaviour.RegisterOnUpdateErrorEventHandler(OnUpdateError);
+        mCloudRecoBehaviour.RegisterOnStateChangedEventHandler(OnStateChanged);
+        mCloudRecoBehaviour.RegisterOnNewSearchResultEventHandler(OnNewSearchResult);
+
+    }
+    void OnDestroy() {
+
+        mCloudRecoBehaviour.UnregisterOnInitializedEventHandler(OnInitialized);
+        mCloudRecoBehaviour.UnregisterOnInitErrorEventHandler(OnInitError);
+        mCloudRecoBehaviour.UnregisterOnUpdateErrorEventHandler(OnUpdateError);
+        mCloudRecoBehaviour.UnregisterOnStateChangedEventHandler(OnStateChanged);
+        mCloudRecoBehaviour.UnregisterOnNewSearchResultEventHandler(OnNewSearchResult);
+    }
+    public void OnInitialized(CloudRecoBehaviour cloudRecoBehaviour) {
+        Debug.Log("Cloud Reco initialized");
+    }
+    public void OnInitError(CloudRecoBehaviour.InitError initError) {
+        Debug.Log("Cloud Reco init error " + initError.ToString());
+    }
+    public void OnUpdateError(CloudRecoBehaviour.QueryError updateError) {
+        Debug.Log("Cloud Reco update error " + updateError.ToString());
+    }
+    public void OnStateChanged(bool scanning) {
+
+        mIsScanning = scanning;
+
+        if (scanning) {
+            // Clear all known targets
+        }
+    }
+    void OnGUI() {
+        // Display current 'scanning' status
+        GUI.Box(new Rect(100, 150, 300, 50), mIsScanning ? "Scanning" : "Not scanning");
+        // Display metadata of latest detected cloud-target
+        GUI.Box(new Rect(100, 200, 300, 75), "Metadata: \nNombre: "+mTargetMetadataNombre+".\n Serie: "+mTargetMetadataSerie+".\nURL: "+mTargetMetadataURL+". \n" );
+        // If not scanning, show button
+        // so that user can restart cloud scanning
+        if (!mIsScanning) {
+            if (GUI.Button(new Rect(100, 275, 300, 50), "Restart Scanning")) {
+                // Reset Behaviour
+                mCloudRecoBehaviour.enabled = true;
+               // mTargetMetadata = "";
+            }
+        }
+    }
+    public void OnNewSearchResult(CloudRecoBehaviour.CloudRecoSearchResult cloudRecoSearchResult) {
+
+        MetaDatos datos = MetaDatos.CreateFromJSON(cloudRecoSearchResult.MetaData);
+
+        mTargetMetadataNombre = datos.nombre;
+        mTargetMetadataSerie = datos.serie;
+        mTargetMetadataURL = datos.URL;
+
+        if (gameManager != null) {
+            gameManager.OnCartaDetectada(datos);
+        }
+
+        mCloudRecoBehaviour.enabled = false;   
+
+        if (ImageTargetTemplate){
+            mCloudRecoBehaviour.EnableObservers(cloudRecoSearchResult, ImageTargetTemplate.gameObject);
+        }
+        // Cargar el modelo desde la URL obtenida
+        if (modelLoader != null) {
+            modelLoader.LoadModel(mTargetMetadataURL);
+        }
+    }
+}

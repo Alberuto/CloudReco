@@ -5,22 +5,13 @@ using static UnityEngine.CullingGroup;
 using static Vuforia.CloudRecoBehaviour;
 using System;
 
-public class MetaDatos {
-
-    public string nombre;
-    public string serie;
-    public string URL;
-
-    public static MetaDatos CreateFromJSON(string jsonString) {
-
-        return JsonUtility.FromJson<MetaDatos>(jsonString);
-    }
-}
 public class SimpleCloudRecognition : MonoBehaviour {
 
     public ImageTargetBehaviour ImageTargetTemplate;
     public CloudRecoBehaviour mCloudRecoBehaviour;
     public LoadModelFromURL modelLoader;
+
+    public GameManagerS gameManager; // asigna en el inspector
 
     bool mIsScanning = false;
     string mTargetMetadataNombre = "";
@@ -84,6 +75,10 @@ public class SimpleCloudRecognition : MonoBehaviour {
         mTargetMetadataNombre = datos.nombre;
         mTargetMetadataSerie = datos.serie;
         mTargetMetadataURL = datos.URL;
+
+        if (gameManager != null) {
+            gameManager.OnCartaDetectada(datos);
+        }
 
         mCloudRecoBehaviour.enabled = false;   
 
