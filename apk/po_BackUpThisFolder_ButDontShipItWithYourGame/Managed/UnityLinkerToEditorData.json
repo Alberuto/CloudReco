@@ -77,27 +77,21 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioClip",
-            "scenes": [
-              "Assets/Scenes/Menu.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -110,18 +104,8 @@
           },
           {
             "name": "AudioResource",
-            "scenes": [
-              "Assets/Scenes/Menu.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "AudioSource",
-            "scenes": [
-              "Assets/Scenes/Menu.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -162,9 +146,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -184,9 +166,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -208,9 +188,7 @@
             "scenes": [
               "64majorasmask",
               "64ocarinaoftime",
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/clase.unity",
               "brosluigi",
               "brosmario",
               "linkarquero",
@@ -238,9 +216,7 @@
             "scenes": [
               "64majorasmask",
               "64ocarinaoftime",
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/clase.unity",
               "brosluigi",
               "brosmario",
               "linkarquero",
@@ -284,9 +260,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -294,9 +268,7 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -322,9 +294,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -340,9 +310,7 @@
             "scenes": [
               "64majorasmask",
               "64ocarinaoftime",
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/clase.unity",
               "brosluigi",
               "brosmario",
               "linkarquero",
@@ -364,9 +332,7 @@
             "scenes": [
               "64majorasmask",
               "64ocarinaoftime",
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/clase.unity",
               "brosluigi",
               "brosmario",
               "linkarquero",
@@ -388,9 +354,7 @@
             "scenes": [
               "64majorasmask",
               "64ocarinaoftime",
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/clase.unity",
               "brosmario",
               "linkarquero",
               "princesspeach",
@@ -408,9 +372,7 @@
             "scenes": [
               "64majorasmask",
               "64ocarinaoftime",
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/clase.unity",
               "brosmario",
               "linkarquero",
               "princesspeach",
@@ -426,9 +388,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -442,9 +402,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -454,9 +412,7 @@
             "scenes": [
               "64majorasmask",
               "64ocarinaoftime",
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/clase.unity",
               "brosluigi",
               "brosmario",
               "linkarquero",
@@ -506,9 +462,7 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -522,9 +476,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -558,9 +510,7 @@
             "scenes": [
               "64majorasmask",
               "64ocarinaoftime",
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/clase.unity",
               "brosluigi",
               "brosmario",
               "linkarquero",
@@ -610,9 +560,7 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1135,8 +1083,7 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1150,7 +1097,7 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1550,9 +1497,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1595,9 +1540,7 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1605,7 +1548,7 @@
           {
             "name": "CanvasGroup",
             "scenes": [
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1613,9 +1556,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/JuegoParejas.unity",
-              "Assets/Scenes/JuegoSimple.unity",
-              "Assets/Scenes/Menu.unity"
+              "Assets/Scenes/clase.unity"
             ],
             "dependencyType": 0,
             "icon": null
