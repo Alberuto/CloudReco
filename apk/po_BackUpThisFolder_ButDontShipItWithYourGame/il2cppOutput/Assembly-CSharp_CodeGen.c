@@ -7,6 +7,9 @@
 
 
 
+extern void CarController_Start_m15C0896D5EB70572BF27815FE41FF8E52DA22145 (void);
+extern void CarController_Update_mA0FE1C8A651320D6A50CC5BF05D0D2BEE984AB67 (void);
+extern void CarController__ctor_mED29536AC2B7697D76B32073704A86307FDCA1FF (void);
 extern void SimpleCloudRecognition_Awake_m173A0A4D93E58CABF7E1F59FE7E01E43E4A70A34 (void);
 extern void SimpleCloudRecognition_OnDestroy_m55013E75B7B50C1EEC0E92D74D39FEA03D27DD0D (void);
 extern void SimpleCloudRecognition_OnInitialized_mF56C9BE82D8EFD6813B81427258E95F7E3939726 (void);
@@ -64,8 +67,11 @@ extern void VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3
 extern void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[59] = 
+static Il2CppMethodPointer s_methodPointers[62] = 
 {
+	CarController_Start_m15C0896D5EB70572BF27815FE41FF8E52DA22145,
+	CarController_Update_mA0FE1C8A651320D6A50CC5BF05D0D2BEE984AB67,
+	CarController__ctor_mED29536AC2B7697D76B32073704A86307FDCA1FF,
 	SimpleCloudRecognition_Awake_m173A0A4D93E58CABF7E1F59FE7E01E43E4A70A34,
 	SimpleCloudRecognition_OnDestroy_m55013E75B7B50C1EEC0E92D74D39FEA03D27DD0D,
 	SimpleCloudRecognition_OnInitialized_mF56C9BE82D8EFD6813B81427258E95F7E3939726,
@@ -130,11 +136,14 @@ extern void U3CLoadModelU3Ed__1_MoveNext_m51181C03285A8D2B3CE5F1F6FD493E2E852987
 extern void U3CLoadModelU3Ed__1_SetStateMachine_mF0A94ED1FA21A2EBC4941FACB58FE59C8B34C856_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
 {
-	{ 0x06000027, U3CLoadModelU3Ed__1_MoveNext_m51181C03285A8D2B3CE5F1F6FD493E2E85298794_AdjustorThunk },
-	{ 0x06000028, U3CLoadModelU3Ed__1_SetStateMachine_mF0A94ED1FA21A2EBC4941FACB58FE59C8B34C856_AdjustorThunk },
+	{ 0x0600002A, U3CLoadModelU3Ed__1_MoveNext_m51181C03285A8D2B3CE5F1F6FD493E2E85298794_AdjustorThunk },
+	{ 0x0600002B, U3CLoadModelU3Ed__1_SetStateMachine_mF0A94ED1FA21A2EBC4941FACB58FE59C8B34C856_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[59] = 
+static const int32_t s_InvokerIndices[62] = 
 {
+	15713,
+	15713,
+	15713,
 	15713,
 	15713,
 	11911,
@@ -197,8 +206,8 @@ static const int32_t s_InvokerIndices[59] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
-	{ 0x0600002D, { 0, 5 } },
-	{ 0x06000034, { 5, 5 } },
+	{ 0x06000030, { 0, 5 } },
+	{ 0x06000037, { 5, 5 } },
 };
 extern const uint32_t g_rgctx_List_1_tCDAEB1FD3BD105C8335573804A98CE5BA93F408E;
 extern const uint32_t g_rgctx_List_1_get_Count_mA19CCB31E2A9A9336A9C952721BC161FA74CE2A9;
@@ -227,7 +236,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	59,
+	62,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,
